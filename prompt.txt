@@ -4,7 +4,7 @@
 # 開発環境
 本番環境　：GitHub Pages
 言語　　　：HTML、CSS、JavaScript
-ライブラリ：jQuery、jQuery UI、Bootstrap
+ライブラリ：jQuery、SortableJS、Bootstrap
 
 # TODOリストの仕様
 ## 画面仕様
@@ -19,6 +19,7 @@
 ・ドラッグで並び替え
 
 ## その他
+・言語とライブラリはすべて最新バージョンを使用する
 ・送信されたテキストは画面表示している間のみ保持する（タブやブラウザを閉じるとすべて削除する）
 
 以上です。
