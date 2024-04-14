@@ -26,7 +26,11 @@ $(document).ready(function() {
     });
 
     // ドラッグで並び替え可能にする
-    $('#todo-list').sortable();
+    var todoList = document.getElementById('todo-list');
+    new Sortable(todoList, {
+        animation: 150,
+        ghostClass: 'sortable-ghost'
+    });
 });
 
 function addTodoItem(todoText) {
